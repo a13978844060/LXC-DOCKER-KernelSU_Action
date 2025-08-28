@@ -1,9 +1,9 @@
-name: build
+name: Build Kernel
 on:
   watch:
     types: [started]
 
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   build:
